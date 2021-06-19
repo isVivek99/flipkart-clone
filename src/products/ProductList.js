@@ -1,7 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
 import ProductCard from './ProductCard';
-import Filterbox from '../filter/Filterbox';
 import Checkbox from '@material-ui/core/Checkbox';
 import './productlist.css'
 
