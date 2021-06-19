@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar__container{
+    background-color: #2874f0;
+    height: 56px;
+    display: flex;
+    
+}
+
+.navbar__items {
+    color: #fff;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.navbar__items input {
+    height: 36px;
+    width: 262px;
+}
+
+.navbar__items input:focus{
+    outline: none;
+    font-size: 22px;
+}
+.navbar__items .item {
+    margin:  0 20px;
+} 
+
+.navbar__items button {
+    width: 121px;
+    height: 31px;
+    border: none;
+    color: #2874f0;
+    font-weight: bold;
+}

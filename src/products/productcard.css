@@ -1,0 +1,25 @@
+.product__container{
+    background-color:whitesmoke;
+    margin: 1rem;
+    padding: 1;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px;
+    width: 18%;
+    height: 400px;
+}
+.prodcut__container__img{
+    align-content: center;
+    height: 75%;
+    width: fit-content;
+}
+.product__container img{
+    width: 100%;
+    height: 90%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.product__container__desc{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}

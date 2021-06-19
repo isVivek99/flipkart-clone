@@ -1,0 +1,59 @@
+{
+    "products" : [
+        {
+            "name":"Solid Men Mandarin Collar White, Blue T-Shirt", 
+            "price":12, 
+            "size":"M",
+            "brand":"Allen Solly",
+            "idealFor" : "men",
+            "src" : "https://rukminim1.flixcart.com/image/332/398/k12go7k0/t-shirt/a/m/k/3xl-askporgfe71298-allen-solly-original-imafkzpehfghrkbu.jpeg?q=50",
+            "id" : 1
+        },
+        {
+            "name":"Solid Men Polo Neck Pink T-Shirt", 
+            "price":14, 
+            "size":"L",
+            "brand":"Peter England",
+            "idealFor" : "men",
+            "src" : "https://rukminim1.flixcart.com/image/469/563/kph8h3k0/t-shirt/s/z/2/xl-pckplsgf983764-peter-england-original-imag3p8rgrs8rsrh.jpeg?q=50",
+            "id" : 2
+        },
+        {
+            "name":"Solid Men Polo Neck Dark Blue T-Shirt", 
+            "price":10, 
+            "size":"M",
+            "brand":"Allen Solly",
+            "idealFor" : "men",
+            "src" : "https://rukminim1.flixcart.com/image/469/563/k0h12fk0/t-shirt/v/t/v/m-askporgfe35420-allen-solly-original-imafk8s5wnqwygff.jpeg?q=50",
+            "id" : 3
+        },
+        {
+            "name":"Full Sleeve Solid Women Sweatshirt", 
+            "price":20, 
+            "size":"S",
+            "brand":"Puma",
+            "idealFor" : "women",
+            "src": "https://rukminim1.flixcart.com/image/325/390/kod858w0/sweatshirt/a/a/0/xl-58689201-puma-original-imag2tyf5gwuvxhr.jpeg?q=50",
+            "id" : 4
+        },
+        {
+            "name":"Solid Men Mandarin Collar White, Blue T-Shirt", 
+            "price":15, 
+            "size":"M",
+            "brand":"Nike",
+            "idealFor" : "women",
+            "src" : "https://rukminim1.flixcart.com/image/332/398/kmccosw0/jacket/z/9/k/m-cw6115-014-nike-original-imagf9mph5k6ysch.jpeg?q=50",
+            "id" : 5
+        },
+        {
+            "name":"Solid Men Mandarin Collar White, Blue T-Shirt", 
+            "price":18, 
+            "size":"S",
+            "brand":"Puma",
+            "idealFor" : "women",
+            "src" : "https://rukminim1.flixcart.com/image/332/398/kmkxbww0/t-shirt/w/e/b/s-58573701-puma-original-imagfg4vgdyzbymh.jpeg?q=50",
+            "id" : 6
+        }
+        
+    ]
+}
