@@ -20,6 +20,5 @@
     flex: 0.5;
     display: flex;
     flex-wrap: wrap;
-    overflow-x: scroll;
     justify-content: center;
 }

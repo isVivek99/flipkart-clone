@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './navbar/Navbar';
-import Mainpage from './products/ProductList'; 
+import Mainpage from './mainpage/Mainpage'; 
 
 const App = () => {
     return ( 
