@@ -1,12 +1,27 @@
-import React from 'react';
+import React,{ useContext } from 'react';
 import './productcard.css';
 import Button from '@material-ui/core/Button';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import { GlobalContext } from '../context/GlobalState';
+import { useHistory } from 'react-router-dom';
 
 
 const ProductCard = ({ name, price, size, id, brand, src }) => {
 
-    console.log(name, price);   
+    console.log(name, price, id);   
+
+    const { cartlist, addProductToProductlist } = useContext(GlobalContext);
+    const history = useHistory();
+
+    const updateProductList = () => {
+        const newProductObj = {
+            name, price, size, id, brand, src,
+            count:1
+        }
+        addProductToProductlist(newProductObj);
+        history.push("/cart");
+
+    }
 
     return ( 
         <div className="product__container">
@@ -23,6 +38,7 @@ const ProductCard = ({ name, price, size, id, brand, src }) => {
                 <div className="btn-cart"> 
                     <Button style={{ backgroundColor:"#fb641b", color:"#fff" }}
                      startIcon={<ShoppingCartIcon />}
+                     onClick={updateProductList}
                     >cart</Button>
                 </div>
             </div>

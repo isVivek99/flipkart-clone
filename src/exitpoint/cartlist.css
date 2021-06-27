@@ -1,0 +1,29 @@
+*{
+    font-family: sans-serif;
+}
+
+
+.cart-product-container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 90%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+    margin: 1rem;
+}
+.cart-prodcut__container__img{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.cart-product-counter{
+    margin: 1rem;
+}
+.cart-prodcut__container__img > img{
+    width: 120px;
+    height: 200px;
+}
+.cart-product__container__desc > h4{
+    font-weight: bold;
+    font-size: 1rem;
+}

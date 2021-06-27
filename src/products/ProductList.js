@@ -56,7 +56,8 @@ const ProductList = ({ productlist }) => {
                     price = {product.price} 
                     size = {product.size}
                     brand = {product.brand}
-                    src = {product.src}   
+                    src = {product.src} 
+                    id = {product.id}  
                     />
                ))}  
         </div>

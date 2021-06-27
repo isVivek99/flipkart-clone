@@ -1,4 +1,5 @@
 import './navbar.css';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return ( 
     <nav className="navbar__container">
@@ -7,7 +8,7 @@ const Navbar = () => {
           <input className="item" type="text" name="" id=""/>
           <button className="item" >login</button>
           <h3 className="item" >more</h3>
-          <h3 className="item" >cart</h3>
+          <h3 className="item"  ><Link style={{textDecoration:"none", color:"#fff"}}to="/cart">cart</Link></h3>
         </div>
     </nav>
    );

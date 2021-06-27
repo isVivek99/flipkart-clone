@@ -1,0 +1,13 @@
+.price__calc__parent{
+    float: right;
+    margin-top: 1rem;
+    box-shadow:rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+    width: 400px;
+}
+
+.listitem{
+    padding: 1rem;
+    box-shadow:rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+    display: flex;
+    justify-content: space-between;
+}

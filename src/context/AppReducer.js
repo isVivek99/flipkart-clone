@@ -1,20 +1,24 @@
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (state, action) => {
-  
+    console.log(action.payload);
+    console.log(action.payload.id);
+
     switch( action.type ){
 
         case "ADD_PRODUCT_TO_PRODUCTLIST":
             return {
                 ...state,
-                productlist:[action.payload, ...state.productlist],
+                cartlist:[action.payload, ...state.cartlist],
             }
 
         case "REMOVE_PRODUCT_FROM_PRODUCTLIST":
             return {
                 ...state,
-                productlist:state.watchlist.filter( (product)=>(product.id !== action.payload) )
+                cartlist:state.cartlist.filter( (product)=>(product.id !== action.payload.id) )
             }
+
+    
 
             default:
                 return state;
