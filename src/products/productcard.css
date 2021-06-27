@@ -4,13 +4,13 @@
     padding: 1;
     border-radius: 1rem;
     box-shadow: 1px 1px 5px;
-    width: 18%;
-    height: 400px;
+    width: 275px;
+    height:550px;
 }
 .prodcut__container__img{
     align-content: center;
     height: 75%;
-    width: fit-content;
+    width: 100%;
 }
 .product__container img{
     width: 100%;
@@ -22,4 +22,15 @@
 .product__container__desc{
     padding-left: 1rem;
     padding-bottom: 1rem;
+    margin-top: 0.1rem;
+}
+.product-desc-container-parent{
+    display: flex;
+    /* flex-direction: column; */
+}
+.btn-cart{
+    display: flex;
+    justify-content: center;
+    padding-right: 0.5rem;
+    align-items: center;
 }

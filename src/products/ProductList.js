@@ -39,33 +39,10 @@ const ProductList = ({ productlist }) => {
         setProducts(productlist);
     }
 
-    const handleChange = (brand, e) => {
-        console.log(e.target);
-        const data = productlist;
-        const arr = data.filter((product) =>{
-            console.log(product.brand===brand);
-            return( product.brand === brand)
-        });
-        setProducts(arr);
-    }
-    
 
-
-    
     return ( 
         <div className="productlist__main__parent">
-            <div className="filter">
-            <div>
-            <ul style={{listStyle:"none"}}>
-                <li><h2>Brands</h2></li>
-                <li> <button onClick={()=>popularityHandler()}>clear all</button> </li>
-                <li>nike <Checkbox  onChange={(e)=>handleChange("Nike",e)} name="size"  /></li>
-                <li>puma <Checkbox  onChange={(e)=>handleChange("Puma",e)} name="size" /></li>
-                <li>allen solly <Checkbox  onChange={(e)=>handleChange("Allen Solly",e)} name="size" /></li>
-                <li>peter england <Checkbox  onChange={(e)=>handleChange("Peter England",e)} name="size" /></li> 
-            </ul>
-        </div>
-            </div>
+        
             <div className = "sorting__buttons">
                 <h4>Sort By</h4>
                 <button onClick={popularityHandler}>popularity</button>
