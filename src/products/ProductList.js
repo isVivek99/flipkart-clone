@@ -43,12 +43,12 @@ const ProductList = ({ productlist }) => {
     return ( 
         <div className="productlist__main__parent">
         
-            <div className = "sorting__buttons">
+            {/* <div className = "sorting__buttons">
                 <h4>Sort By</h4>
                 <button onClick={popularityHandler}>popularity</button>
                 <button onClick={lowToHighHandler}>Price--Low to High</button>
                 <button onClick={highToLowHandler}>Price--High to Low</button>
-            </div>
+            </div> */}
             <div className = "productlist__main">
             {   products && products.map(product => (
                     <ProductCard  key={product.id} 
